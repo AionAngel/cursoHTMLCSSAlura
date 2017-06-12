@@ -66,6 +66,7 @@ aside h1{
 .rodape {
     background-color: black;
     color: #F2FFFC;
+    clear: both;
 }
 
 nav a{
@@ -120,4 +121,41 @@ strong{
     background-color: #E6E7E8;
 }
 
+.fiat{
+    float: right;
+}
+
+.petrobras{
+    float: left
+}
+
+cite{
+    font-style: italic;
+    float: right;
+    display: block;
+}
+
+.subtitulo {
+    clear: both;
+}
+
+.menu {
+    float:right;
+}
+
+.foto {
+    float: right;
+}
+
+main{
+    float: left;
+    width: 85%;
+}
+
+.menu, .foto {
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
 
