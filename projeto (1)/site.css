@@ -52,7 +52,7 @@ aside{
     color: #F2FFFC;
 }
 
-aside a{
+aside nav{
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
     text-decoration: none;
@@ -86,11 +86,28 @@ strong{
 }
 
 .redes-sociais li {
+    display: inline-block;
+}
+
+.redes-sociais a {
     width: 40px;
     height: 40px;
     display: inline-block;
-    text-indent: -99999px
+    text-indent: -99999px;
     
+}
+
+
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+    background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
 }
 
 .leia-mais {
